@@ -592,6 +592,7 @@ nav button:hover {
         transform: translateY(-20px);
     }
 }
+
 @keyframes floats {
     50% {
         transform: scale(1.2);
@@ -681,9 +682,11 @@ nav button:hover {
     font-size: 17px;
     font-weight: 600;
 }
-.blogs h2{
+
+.blogs h2 {
     color: rgb(216, 10, 10);
 }
+
 .blog h1 {
     padding: 10px;
     font-size: 20px;
@@ -744,15 +747,18 @@ Footer {
 .footer-logo h1 {
     color: white;
 }
+
 .footer-icons {
     display: flex;
     justify-content: space-between;
 }
-.footer-icons .fa-brands{
+
+.footer-icons .fa-brands {
     font-size: 40px;
     margin-top: 30px;
     padding-right: 40px;
 }
+
 .food-street p {
     font-weight: 100;
     font-size: 15px;
@@ -834,13 +840,22 @@ hr {
     }
 
     .hero-text {
+        align-items: center;
         width: 95%;
-        padding-left: 29px;
-        margin-top: -65px;
+        padding: 180px 20px;
+        margin-top: -85px;
+        margin: auto;
+    }
+
+    .hero-text p {
+        text-align: center;
+        margin-top: -30px;
     }
 
     .hero h1 {
+        text-align: center;
         font-size: 25px;
+        margin-top: -80px;
         margin-bottom: 48px;
     }
 
@@ -857,6 +872,10 @@ hr {
 
     .online-booking h3 {
         font-size: 20px;
+    }
+
+    .online-booking h1 {
+        text-align: center;
     }
 
     .input-field {
@@ -892,8 +911,7 @@ hr {
 
     .about-left {
         width: 100%;
-        margin-left: -30px;
-        margin-top: -25px;
+        margin: auto;
     }
 
     .about-left h1 {
@@ -905,6 +923,7 @@ hr {
     .about-left h3 {
         font-size: 20px;
         text-align: center;
+        margin-top: -50px;
     }
 
     .about-left p {
@@ -948,8 +967,8 @@ hr {
     }
 
     .team-left {
-        width: 100%;
-        margin-left: -130px;
+        width: 95%;
+        padding: 20px;
     }
 
     .team-left h3 {
@@ -981,6 +1000,7 @@ hr {
     .main-testimonial {
         width: 85%;
     }
+
     .testimonial {
         padding: 140px 20px;
         height: 900px;
@@ -1062,7 +1082,7 @@ hr {
         width: 100%;
         margin-top: -10px;
     }
- 
+
     .contact-us {
         margin-top: 20px;
     }

@@ -146,6 +146,7 @@ nav button:hover {
 }
 
 .button {
+    display: flex;
     animation: rise 3s ease forwards;
 }
 

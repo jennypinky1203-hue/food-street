@@ -206,7 +206,7 @@ nav button:hover {
     left: 100px;
     position: absolute;
     top: 710px;
-    box-shadow: 0px 0px 7px #ccc;
+    box-shadow: 0px 0px 7px #3d3d3d;
 }
 
 .online-booking h3 {
@@ -406,8 +406,6 @@ nav button:hover {
 .our-team {
     display: flex;
     gap: 50px;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Our Team Right */
@@ -419,8 +417,8 @@ nav button:hover {
 }
 
 .team-right h2 {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .team-right p {
@@ -442,7 +440,7 @@ nav button:hover {
     box-shadow: 5px 5px 5px #ddd;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 35%;
 }
 
 .team-text {
@@ -455,8 +453,8 @@ nav button:hover {
 
 /* Our Team Left */
 .team-left {
-    width: 40%;
-    padding-left: 120px;
+    width: 60%;
+    padding: 80px 120px;
 }
 
 .team-left h3 {
@@ -590,13 +588,13 @@ nav button:hover {
 
 @keyframes float {
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-40px);
     }
 }
 
 @keyframes floats {
     50% {
-        transform: scale(1.2);
+        transform: scale(1.3);
     }
 }
 
@@ -714,6 +712,7 @@ Footer {
     align-items: center;
     background-color: black;
     color: white;
+    height: auto;
 }
 
 .footer {
@@ -721,7 +720,6 @@ Footer {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    height: 400px;
 }
 
 /* food street */
@@ -950,7 +948,7 @@ hr {
 
     .menu-card {
         width: 100%;
-        height: 630px;
+        height: auto;
     }
 
     .menu h3 {
@@ -1017,6 +1015,16 @@ hr {
         right: 4px;
     }
 
+    .float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+        50% {
+            transform: translateY(20px);
+        }
+    }
+
     .img1 {
         top: 35px;
         left: 25px;
@@ -1054,7 +1062,7 @@ hr {
 
     .blog {
         width: 100%;
-        height: 600px;
+        height: auto;
     }
 
     .blog-header {
@@ -1066,8 +1074,11 @@ hr {
     }
 
     footer {
-        height: 970px;
         justify-content: space-between;
+    }
+
+    .footer p {
+        font-size: 25px;
     }
 
     .footer {
@@ -1083,12 +1094,108 @@ hr {
         width: 100%;
         margin-top: -10px;
     }
-
-    .contact-us {
-        margin-top: 20px;
+    .quick-links a{
+        font-size: 25px;
     }
 
-    hr {
-        margin-top: 490px;
+    .contact-us {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .hero-text {
+        width: 70%;
+    }
+
+    .online-booking {
+        width: 100%;
+        top: 750px;
+        left: 0%;
+    }
+
+    .about img {
+        width: 190px;
+        height: 190px;
+    }
+    .about-left{
+        margin-left: 5px;
+    }
+
+    .menu-cards {
+        width: 95%;
+    }
+
+    .menu-card {
+        height: auto;
+        width: 48%;
+    }
+
+    .fees {
+        margin: auto;
+    }
+
+    .our-team {
+        flex-direction: column;
+    }
+
+    .team-left {
+        padding-left: 80px;
+        width: 100%;
+    }
+
+    .team-left p {
+        font-size: 25px;
+    }
+
+    .team-right {
+        margin-top: -100px;
+        padding: 20px 80px;
+    }
+
+    .blog-card {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .blog {
+        width: 70%;
+        height: auto;
+    }
+
+    .blog h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .blog p {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .blog-link a {
+        font-size: 30px;
+    }
+
+    .img2 {
+        left: 100px;
+    }
+
+    .img5 {
+        right: 100px;
+    }
+    footer{
+        height: auto;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer p{
+        font-size: 25px;
+    }
+    .quick-links a{
+        font-size: 25px;
     }
 }

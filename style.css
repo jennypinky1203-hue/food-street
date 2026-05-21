@@ -353,7 +353,7 @@ nav button:hover {
     position: relative;
     background-color: #fff;
     border: 1px solid #fff;
-    box-shadow: 5px 5px 5px #ddd;
+    box-shadow: 0px 0px 5px rgb(68, 65, 65);
 }
 
 .menu-text {
@@ -668,7 +668,7 @@ nav button:hover {
     width: 32%;
     height: 560px;
     border: 1px solid #e7e5e5;
-    box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 0px 0px 5px rgb(58, 56, 56);
     background-color: #e7e5e5;
 }
 
@@ -962,12 +962,13 @@ hr {
 
     .our-team {
         flex-direction: column;
-        padding: 30px 0px;
+        align-items: center;
+        margin: auto;
     }
 
     .team-left {
         width: 95%;
-        padding: 20px;
+        padding: 30px;
     }
 
     .team-left h3 {
@@ -1162,6 +1163,9 @@ hr {
     .blog {
         width: 70%;
         height: auto;
+    }
+    .blog img{
+        height: 450px;
     }
 
     .blog h1 {

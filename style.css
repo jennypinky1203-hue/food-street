@@ -347,7 +347,6 @@ nav button:hover {
     position: relative;
     background-color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 0px 5px rgb(68, 65, 65);
 }
 
 .menu-text {
@@ -662,7 +661,6 @@ nav button:hover {
     width: 32%;
     height: 560px;
     border: 1px solid #e7e5e5;
-    box-shadow: 0px 0px 5px rgb(58, 56, 56);
     background-color: #e7e5e5;
 }
 
